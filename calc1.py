@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 
+
+
 import tkinter as tk
 calc = tk.Tk()
 
@@ -94,7 +96,7 @@ _4 = tk.Button(line2, text="4", height=2, width=7, command=lambda: changes('4'))
 calc.bind('4',lambda event: changes('4'))
 _5 = tk.Button(line2, text="5", height=2, width=7, command=lambda: changes('5'))
 calc.bind('5',lambda event: changes('5'))
-_6 = tk.Button(line2, text="6", height=2, width=7, command=lambda: changes('6'))
+_6 = tk.Button(line2, text="6", height=2, width=7, command=lambda: changes('6'))           #code by soorya!!!
 calc.bind('6',lambda event: changes('6'))
 _7 = tk.Button(line3, text="7", height=2, width=7, command=lambda: changes('7'))
 calc.bind('7',lambda event: changes('7'))
