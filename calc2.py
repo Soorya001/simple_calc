@@ -52,6 +52,7 @@ def process():
     values = []        #stack to hold the values
     ops = []           #stack to hold the operators
     i=0
+    minus = 0
     print("length of strt: ",len(strt) , strt)
     if(len(strt)<3):
         print("no operations entered!!!")
@@ -60,6 +61,13 @@ def process():
     while i<len(strt):
 
         print("i: ",i)
+        
+        if strt[0]=='-' and minus==0:
+            minus = 1
+            i+=1
+            continue
+            
+         
         if strt[i]=='(':
             ops.append(strt[i])
             print("braces found")
@@ -92,7 +100,11 @@ def process():
 
             i-=1
 
-            values.append(val)
+            if(minus==1):
+                values.append(-val)
+                minus = 2
+            else:
+                values.append(val)
             print ("after append: " ,val,": ", values)
             print("ops is: ",ops)
 
