@@ -1,11 +1,11 @@
 # simple_calc
 
-just created a basic version
-todo:
-1. Add keyboard functionality - DONE
-2. Check for glitches - DONE
-3. Add more functionality - DONE
-4. Add . button along with more functionalities  - DONE!!!!!
-5. Accomodate previous results in the screen 
+WELCOME
 
+The simple_calc was developed in python with the help of ktinker package.
+Which takes care of all the GUI elements/widgets and python being a very 
+user friendly language, enabled in fast creation...
+
+You can download the three different versions of the calc, Calc3 is the final one,
+I've added the other two older ones for your reference. (Install ktinker package before trying to execute the code)
 
